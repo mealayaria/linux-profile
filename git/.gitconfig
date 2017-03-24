@@ -1,0 +1,37 @@
+[user]
+	email = hnxmswyy@gmail.com
+	name = chiaya
+[core]
+	editor = vim
+	autocrlf = input
+[color]
+	ui = true
+	pager = true
+	branch = auto
+	diff = auto
+[color "status"]
+	added = green
+	changed = cyan
+	untracked = yellow
+[color "diff"]
+	meta = green bold
+	frag = magenta bold
+	old = yellow
+	new = cyan
+[alias]
+	bc = branch
+	st = status
+	cl = clone
+	co = checkout
+	cm = commit
+	df = diff
+	rs = reset
+	ps = push
+	pl = pull
+[push]
+	default = simple
+[merge]
+	tool = vimdiff
+
+[http "https://gopkg.in"]
+	followRedirects = true
